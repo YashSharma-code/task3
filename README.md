@@ -61,47 +61,19 @@ ros2 run teleop_arm keyboard_teleop
 
 ⌨️ Keyboard Controls
 
-Joint
+Joint : Increase/Decrease
 
-Increase
+Shoulder Pan : Q/A
 
-Decrease
+Shoulder Lift : W/S
 
-Shoulder Pan
+Elbow : E/D
 
-Q
+Wrist 1 : R/F
 
-A
+Wrist 2 : T/G
 
-Shoulder Lift
-
-W
-
-S
-
-Elbow
-
-E
-
-D
-
-Wrist 1
-
-R
-
-F
-
-Wrist 2
-
-T
-
-G
-
-Wrist 3
-
-Y
-
-H
+Wrist 3 : Y/H
 
 Each keypress sends a new joint trajectory with a small delta (0.1 rad).
 
