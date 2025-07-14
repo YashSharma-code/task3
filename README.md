@@ -2,6 +2,17 @@
 
 This repository implements a teleoperation system for a 6DOF robotic arm (UR5) in Gazebo, controlled using keyboard inputs. The system uses ROS 2 Humble and publishes joint commands to simulate arm movement.
 
+📽️ Demo - https://youtu.be/n-Ft9fARapg
+
+It shows:
+
+Starting the simulation
+
+Launching the teleop node
+
+Controlling the robot using the keyboard
+
+
 📦 Package Overview
 
 This repository contains the following ROS 2 packages:
@@ -93,16 +104,6 @@ Confirm /joint_trajectory_controller/joint_trajectory is being published to usin
 ros2 topic echo /joint_trajectory_controller/joint_trajectory
 
 Use rqt_graph to visualize the ROS computation graph.
-
-📽️ Demo
-
-A video demonstration named working.mp4 is included at the root of this repository. It shows:
-
-Starting the simulation
-
-Launching the teleop node
-
-Controlling the robot using the keyboard
 
 👤 Author
 
