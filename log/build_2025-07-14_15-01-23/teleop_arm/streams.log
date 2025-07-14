@@ -1,0 +1,24 @@
+[0.851s] Invoking command in '/home/yash_linux/teleop_ws/src/teleop_arm': PYTHONPATH=/home/yash_linux/teleop_ws/build/teleop_arm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yash_linux/teleop_ws/install/teleop_arm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/teleop_arm build --build-base /home/yash_linux/teleop_ws/build/teleop_arm/build install --record /home/yash_linux/teleop_ws/build/teleop_arm/install.log --single-version-externally-managed install_data
+[1.113s] running egg_info
+[1.126s] writing ../../build/teleop_arm/teleop_arm.egg-info/PKG-INFO
+[1.127s] writing dependency_links to ../../build/teleop_arm/teleop_arm.egg-info/dependency_links.txt
+[1.127s] writing entry points to ../../build/teleop_arm/teleop_arm.egg-info/entry_points.txt
+[1.127s] writing requirements to ../../build/teleop_arm/teleop_arm.egg-info/requires.txt
+[1.128s] writing top-level names to ../../build/teleop_arm/teleop_arm.egg-info/top_level.txt
+[1.165s] reading manifest file '../../build/teleop_arm/teleop_arm.egg-info/SOURCES.txt'
+[1.166s] writing manifest file '../../build/teleop_arm/teleop_arm.egg-info/SOURCES.txt'
+[1.167s] running build
+[1.168s] running build_py
+[1.169s] copying teleop_arm/__init__.py -> /home/yash_linux/teleop_ws/build/teleop_arm/build/lib/teleop_arm
+[1.170s] running install
+[1.177s] running install_lib
+[1.191s] copying /home/yash_linux/teleop_ws/build/teleop_arm/build/lib/teleop_arm/__init__.py -> /home/yash_linux/teleop_ws/install/teleop_arm/lib/python3.10/site-packages/teleop_arm
+[1.191s] byte-compiling /home/yash_linux/teleop_ws/install/teleop_arm/lib/python3.10/site-packages/teleop_arm/__init__.py to __init__.cpython-310.pyc
+[1.192s] running install_data
+[1.192s] running install_egg_info
+[1.207s] removing '/home/yash_linux/teleop_ws/install/teleop_arm/lib/python3.10/site-packages/teleop_arm-0.0.0-py3.10.egg-info' (and everything under it)
+[1.208s] Copying ../../build/teleop_arm/teleop_arm.egg-info to /home/yash_linux/teleop_ws/install/teleop_arm/lib/python3.10/site-packages/teleop_arm-0.0.0-py3.10.egg-info
+[1.209s] running install_scripts
+[1.388s] Installing keyboard_teleop script to /home/yash_linux/teleop_ws/install/teleop_arm/lib/teleop_arm
+[1.388s] writing list of installed files to '/home/yash_linux/teleop_ws/build/teleop_arm/install.log'
+[1.416s] Invoked command in '/home/yash_linux/teleop_ws/src/teleop_arm' returned '0': PYTHONPATH=/home/yash_linux/teleop_ws/build/teleop_arm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yash_linux/teleop_ws/install/teleop_arm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/teleop_arm build --build-base /home/yash_linux/teleop_ws/build/teleop_arm/build install --record /home/yash_linux/teleop_ws/build/teleop_arm/install.log --single-version-externally-managed install_data

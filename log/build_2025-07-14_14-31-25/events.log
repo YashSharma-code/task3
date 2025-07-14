@@ -1,0 +1,191 @@
+[0.000000] (-) TimerEvent: {}
+[0.000168] (teleop_arm) JobQueued: {'identifier': 'teleop_arm', 'dependencies': OrderedDict()}
+[0.000209] (ur_simulation_gazebo) JobQueued: {'identifier': 'ur_simulation_gazebo', 'dependencies': OrderedDict()}
+[0.000225] (teleop_arm) JobStarted: {'identifier': 'teleop_arm'}
+[0.009402] (ur_simulation_gazebo) JobStarted: {'identifier': 'ur_simulation_gazebo'}
+[0.099139] (-) TimerEvent: {}
+[0.199407] (-) TimerEvent: {}
+[0.229054] (ur_simulation_gazebo) JobProgress: {'identifier': 'ur_simulation_gazebo', 'progress': 'cmake'}
+[0.230926] (ur_simulation_gazebo) Command: {'cmd': ['/usr/bin/cmake', '/home/yash_linux/teleop_ws/src/Universal_Robots_ROS2_Gazebo_Simulation/ur_simulation_gazebo', '-DCMAKE_INSTALL_PREFIX=/home/yash_linux/teleop_ws/install/ur_simulation_gazebo'], 'cwd': '/home/yash_linux/teleop_ws/build/ur_simulation_gazebo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yash_linux'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yash_linux'), ('OLDPWD', '/home/yash_linux/teleop_ws'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/yash_linux/teleop_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yash_linux'), ('NAME', 'LAPTOP-MCLHQ5S1'), ('WSL_INTEROP', '/run/WSL/3884_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/yash_linux/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Users/Administrator/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/HP/OMEN-Broadcast/Common:/mnt/c/Program Files/HP/HP One Agent:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/110/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/120/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/msys64/mingw64/bin:/mnt/c/Users/Yash/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/Scripts:/mnt/c/users/yash/appdata/local/packages/pythonsoftwarefoundation.python.3.13_qbz5n2kfra8p0/localcache/local-packages/python313/site-packages:/mnt/c/YARA:/mnt/c/Program Files/nodejs/:/mnt/c/Users/Yash/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/Yash/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Yash/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Yash/AppData/Roaming/npm:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/yash_linux/teleop_ws/install/teleop_arm:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/yash_linux/teleop_ws/build/ur_simulation_gazebo'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/yash_linux/teleop_ws/install/teleop_arm/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/home/yash_linux/teleop_ws/install/teleop_arm:/opt/ros/humble')]), 'shell': False}
+[0.299572] (-) TimerEvent: {}
+[0.399859] (-) TimerEvent: {}
+[0.500195] (-) TimerEvent: {}
+[0.600707] (-) TimerEvent: {}
+[0.655212] (ur_simulation_gazebo) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.700974] (-) TimerEvent: {}
+[0.759819] (teleop_arm) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/teleop_arm', 'build', '--build-base', '/home/yash_linux/teleop_ws/build/teleop_arm/build', 'install', '--record', '/home/yash_linux/teleop_ws/build/teleop_arm/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/yash_linux/teleop_ws/src/teleop_arm', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'yash_linux', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/yash_linux', 'OLDPWD': '/home/yash_linux/teleop_ws', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-22.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/yash_linux/teleop_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'yash_linux', 'NAME': 'LAPTOP-MCLHQ5S1', 'WSL_INTEROP': '/run/WSL/3884_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/yash_linux/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Users/Administrator/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/HP/OMEN-Broadcast/Common:/mnt/c/Program Files/HP/HP One Agent:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/110/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/120/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/msys64/mingw64/bin:/mnt/c/Users/Yash/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/Scripts:/mnt/c/users/yash/appdata/local/packages/pythonsoftwarefoundation.python.3.13_qbz5n2kfra8p0/localcache/local-packages/python313/site-packages:/mnt/c/YARA:/mnt/c/Program Files/nodejs/:/mnt/c/Users/Yash/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/Yash/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Yash/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Yash/AppData/Roaming/npm:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/yash_linux/teleop_ws/install/teleop_arm:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/yash_linux/teleop_ws/build/teleop_arm', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/yash_linux/teleop_ws/build/teleop_arm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yash_linux/teleop_ws/install/teleop_arm/lib/python3.10/site-packages:/home/yash_linux/teleop_ws/install/teleop_arm/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': ''}, 'shell': False}
+[0.801102] (-) TimerEvent: {}
+[0.901403] (-) TimerEvent: {}
+[0.940832] (teleop_arm) StdoutLine: {'line': b'running egg_info\n'}
+[0.952375] (teleop_arm) StdoutLine: {'line': b'writing ../../build/teleop_arm/teleop_arm.egg-info/PKG-INFO\n'}
+[0.952967] (teleop_arm) StdoutLine: {'line': b'writing dependency_links to ../../build/teleop_arm/teleop_arm.egg-info/dependency_links.txt\n'}
+[0.953224] (teleop_arm) StdoutLine: {'line': b'writing entry points to ../../build/teleop_arm/teleop_arm.egg-info/entry_points.txt\n'}
+[0.953421] (teleop_arm) StdoutLine: {'line': b'writing requirements to ../../build/teleop_arm/teleop_arm.egg-info/requires.txt\n'}
+[0.953621] (teleop_arm) StdoutLine: {'line': b'writing top-level names to ../../build/teleop_arm/teleop_arm.egg-info/top_level.txt\n'}
+[0.976224] (teleop_arm) StdoutLine: {'line': b"reading manifest file '../../build/teleop_arm/teleop_arm.egg-info/SOURCES.txt'\n"}
+[0.977050] (teleop_arm) StdoutLine: {'line': b"writing manifest file '../../build/teleop_arm/teleop_arm.egg-info/SOURCES.txt'\n"}
+[0.977250] (teleop_arm) StdoutLine: {'line': b'running build\n'}
+[0.977446] (teleop_arm) StdoutLine: {'line': b'running build_py\n'}
+[0.977718] (teleop_arm) StdoutLine: {'line': b'running install\n'}
+[0.981686] (teleop_arm) StdoutLine: {'line': b'running install_lib\n'}
+[0.992520] (teleop_arm) StdoutLine: {'line': b'running install_data\n'}
+[0.992770] (teleop_arm) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.001533] (-) TimerEvent: {}
+[1.003762] (teleop_arm) StdoutLine: {'line': b"removing '/home/yash_linux/teleop_ws/install/teleop_arm/lib/python3.10/site-packages/teleop_arm-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.004123] (teleop_arm) StdoutLine: {'line': b'Copying ../../build/teleop_arm/teleop_arm.egg-info to /home/yash_linux/teleop_ws/install/teleop_arm/lib/python3.10/site-packages/teleop_arm-0.0.0-py3.10.egg-info\n'}
+[1.005089] (teleop_arm) StdoutLine: {'line': b'running install_scripts\n'}
+[1.101658] (-) TimerEvent: {}
+[1.114598] (teleop_arm) StdoutLine: {'line': b'Installing joint_controller.py script to /home/yash_linux/teleop_ws/install/teleop_arm/lib/teleop_arm\n'}
+[1.115038] (teleop_arm) StdoutLine: {'line': b"writing list of installed files to '/home/yash_linux/teleop_ws/build/teleop_arm/install.log'\n"}
+[1.139998] (teleop_arm) CommandEnded: {'returncode': 0}
+[1.148348] (teleop_arm) JobEnded: {'identifier': 'teleop_arm', 'rc': 0}
+[1.201980] (-) TimerEvent: {}
+[1.302701] (-) TimerEvent: {}
+[1.403396] (-) TimerEvent: {}
+[1.504098] (-) TimerEvent: {}
+[1.604662] (-) TimerEvent: {}
+[1.705285] (-) TimerEvent: {}
+[1.806255] (-) TimerEvent: {}
+[1.906950] (-) TimerEvent: {}
+[2.007643] (-) TimerEvent: {}
+[2.108192] (-) TimerEvent: {}
+[2.208692] (-) TimerEvent: {}
+[2.309286] (-) TimerEvent: {}
+[2.409887] (-) TimerEvent: {}
+[2.510438] (-) TimerEvent: {}
+[2.611009] (-) TimerEvent: {}
+[2.711419] (-) TimerEvent: {}
+[2.812073] (-) TimerEvent: {}
+[2.912682] (-) TimerEvent: {}
+[3.013217] (-) TimerEvent: {}
+[3.113824] (-) TimerEvent: {}
+[3.163051] (ur_simulation_gazebo) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[3.214246] (-) TimerEvent: {}
+[3.314999] (-) TimerEvent: {}
+[3.415918] (-) TimerEvent: {}
+[3.516538] (-) TimerEvent: {}
+[3.616978] (-) TimerEvent: {}
+[3.717479] (-) TimerEvent: {}
+[3.818024] (-) TimerEvent: {}
+[3.918462] (-) TimerEvent: {}
+[4.018961] (-) TimerEvent: {}
+[4.119363] (-) TimerEvent: {}
+[4.219790] (-) TimerEvent: {}
+[4.320273] (-) TimerEvent: {}
+[4.420679] (-) TimerEvent: {}
+[4.521158] (-) TimerEvent: {}
+[4.621668] (-) TimerEvent: {}
+[4.722317] (-) TimerEvent: {}
+[4.779661] (ur_simulation_gazebo) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[4.822501] (-) TimerEvent: {}
+[4.923030] (-) TimerEvent: {}
+[5.023693] (-) TimerEvent: {}
+[5.124485] (-) TimerEvent: {}
+[5.225231] (-) TimerEvent: {}
+[5.311341] (ur_simulation_gazebo) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[5.319531] (ur_simulation_gazebo) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[5.319809] (ur_simulation_gazebo) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[5.320313] (ur_simulation_gazebo) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[5.323931] (ur_simulation_gazebo) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[5.325295] (-) TimerEvent: {}
+[5.425614] (-) TimerEvent: {}
+[5.526262] (-) TimerEvent: {}
+[5.627112] (-) TimerEvent: {}
+[5.727834] (-) TimerEvent: {}
+[5.783126] (ur_simulation_gazebo) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[5.789539] (ur_simulation_gazebo) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[5.789766] (ur_simulation_gazebo) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[5.790229] (ur_simulation_gazebo) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[5.795322] (ur_simulation_gazebo) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[5.827950] (-) TimerEvent: {}
+[5.928293] (-) TimerEvent: {}
+[6.028621] (-) TimerEvent: {}
+[6.106053] (ur_simulation_gazebo) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[6.128783] (-) TimerEvent: {}
+[6.206222] (ur_simulation_gazebo) StdoutLine: {'line': b'-- Found launch_testing_ament_cmake: 1.0.9 (/opt/ros/humble/share/launch_testing_ament_cmake/cmake)\n'}
+[6.207966] (ur_simulation_gazebo) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[6.228973] (-) TimerEvent: {}
+[6.329424] (-) TimerEvent: {}
+[6.430076] (-) TimerEvent: {}
+[6.530704] (-) TimerEvent: {}
+[6.631300] (-) TimerEvent: {}
+[6.731882] (-) TimerEvent: {}
+[6.832368] (-) TimerEvent: {}
+[6.933316] (-) TimerEvent: {}
+[6.960053] (ur_simulation_gazebo) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[7.033635] (-) TimerEvent: {}
+[7.134263] (-) TimerEvent: {}
+[7.234765] (-) TimerEvent: {}
+[7.335411] (-) TimerEvent: {}
+[7.436016] (-) TimerEvent: {}
+[7.536535] (-) TimerEvent: {}
+[7.637204] (-) TimerEvent: {}
+[7.737811] (-) TimerEvent: {}
+[7.838417] (-) TimerEvent: {}
+[7.939064] (-) TimerEvent: {}
+[8.039790] (-) TimerEvent: {}
+[8.140294] (-) TimerEvent: {}
+[8.240839] (-) TimerEvent: {}
+[8.341400] (-) TimerEvent: {}
+[8.441899] (-) TimerEvent: {}
+[8.542476] (-) TimerEvent: {}
+[8.643119] (-) TimerEvent: {}
+[8.743720] (-) TimerEvent: {}
+[8.844441] (-) TimerEvent: {}
+[8.945092] (-) TimerEvent: {}
+[9.045619] (-) TimerEvent: {}
+[9.146046] (-) TimerEvent: {}
+[9.246761] (-) TimerEvent: {}
+[9.347411] (-) TimerEvent: {}
+[9.448125] (-) TimerEvent: {}
+[9.548795] (-) TimerEvent: {}
+[9.649532] (-) TimerEvent: {}
+[9.750126] (-) TimerEvent: {}
+[9.850627] (-) TimerEvent: {}
+[9.894430] (ur_simulation_gazebo) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[9.894626] (ur_simulation_gazebo) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[9.894683] (ur_simulation_gazebo) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[9.894964] (ur_simulation_gazebo) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[9.943163] (ur_simulation_gazebo) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[9.950046] (ur_simulation_gazebo) StdoutLine: {'line': b'-- Found ament_cmake_pytest: 1.3.11 (/opt/ros/humble/share/ament_cmake_pytest/cmake)\n'}
+[9.950863] (-) TimerEvent: {}
+[10.051466] (-) TimerEvent: {}
+[10.068895] (ur_simulation_gazebo) StdoutLine: {'line': b'-- Configuring done\n'}
+[10.078012] (ur_simulation_gazebo) StdoutLine: {'line': b'-- Generating done\n'}
+[10.082683] (ur_simulation_gazebo) StdoutLine: {'line': b'-- Build files have been written to: /home/yash_linux/teleop_ws/build/ur_simulation_gazebo\n'}
+[10.092637] (ur_simulation_gazebo) CommandEnded: {'returncode': 0}
+[10.093448] (ur_simulation_gazebo) JobProgress: {'identifier': 'ur_simulation_gazebo', 'progress': 'build'}
+[10.095502] (ur_simulation_gazebo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yash_linux/teleop_ws/build/ur_simulation_gazebo', '--', '-j20', '-l20'], 'cwd': '/home/yash_linux/teleop_ws/build/ur_simulation_gazebo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yash_linux'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yash_linux'), ('OLDPWD', '/home/yash_linux/teleop_ws'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/yash_linux/teleop_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yash_linux'), ('NAME', 'LAPTOP-MCLHQ5S1'), ('WSL_INTEROP', '/run/WSL/3884_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/yash_linux/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Users/Administrator/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/HP/OMEN-Broadcast/Common:/mnt/c/Program Files/HP/HP One Agent:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/110/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/120/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/msys64/mingw64/bin:/mnt/c/Users/Yash/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/Scripts:/mnt/c/users/yash/appdata/local/packages/pythonsoftwarefoundation.python.3.13_qbz5n2kfra8p0/localcache/local-packages/python313/site-packages:/mnt/c/YARA:/mnt/c/Program Files/nodejs/:/mnt/c/Users/Yash/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/Yash/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Yash/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Yash/AppData/Roaming/npm:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/yash_linux/teleop_ws/install/teleop_arm:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/yash_linux/teleop_ws/build/ur_simulation_gazebo'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/yash_linux/teleop_ws/install/teleop_arm/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/home/yash_linux/teleop_ws/install/teleop_arm:/opt/ros/humble')]), 'shell': False}
+[10.139089] (ur_simulation_gazebo) CommandEnded: {'returncode': 0}
+[10.139823] (ur_simulation_gazebo) JobProgress: {'identifier': 'ur_simulation_gazebo', 'progress': 'install'}
+[10.148841] (ur_simulation_gazebo) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/yash_linux/teleop_ws/build/ur_simulation_gazebo'], 'cwd': '/home/yash_linux/teleop_ws/build/ur_simulation_gazebo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yash_linux'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yash_linux'), ('OLDPWD', '/home/yash_linux/teleop_ws'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/yash_linux/teleop_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yash_linux'), ('NAME', 'LAPTOP-MCLHQ5S1'), ('WSL_INTEROP', '/run/WSL/3884_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/yash_linux/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Users/Administrator/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/HP/OMEN-Broadcast/Common:/mnt/c/Program Files/HP/HP One Agent:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/110/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/120/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/msys64/mingw64/bin:/mnt/c/Users/Yash/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/Scripts:/mnt/c/users/yash/appdata/local/packages/pythonsoftwarefoundation.python.3.13_qbz5n2kfra8p0/localcache/local-packages/python313/site-packages:/mnt/c/YARA:/mnt/c/Program Files/nodejs/:/mnt/c/Users/Yash/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/Yash/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Yash/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Yash/AppData/Roaming/npm:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/yash_linux/teleop_ws/install/teleop_arm:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/yash_linux/teleop_ws/build/ur_simulation_gazebo'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/yash_linux/teleop_ws/install/teleop_arm/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/home/yash_linux/teleop_ws/install/teleop_arm:/opt/ros/humble')]), 'shell': False}
+[10.151587] (-) TimerEvent: {}
+[10.155108] (ur_simulation_gazebo) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.155408] (ur_simulation_gazebo) StdoutLine: {'line': b'-- Installing: /home/yash_linux/teleop_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/config\n'}
+[10.156278] (ur_simulation_gazebo) StdoutLine: {'line': b'-- Installing: /home/yash_linux/teleop_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/config/ur_controllers.yaml:Zone.Identifier\n'}
+[10.156386] (ur_simulation_gazebo) StdoutLine: {'line': b'-- Installing: /home/yash_linux/teleop_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/config/ur_controllers.yaml:Zone.Identifier:Zone.Identifier\n'}
+[10.156499] (ur_simulation_gazebo) StdoutLine: {'line': b'-- Installing: /home/yash_linux/teleop_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/config/ur_controllers.yaml\n'}
+[10.156736] (ur_simulation_gazebo) StdoutLine: {'line': b'-- Installing: /home/yash_linux/teleop_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/launch\n'}
+[10.156810] (ur_simulation_gazebo) StdoutLine: {'line': b'-- Installing: /home/yash_linux/teleop_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/launch/ur_sim_control.launch.py\n'}
+[10.157054] (ur_simulation_gazebo) StdoutLine: {'line': b'-- Installing: /home/yash_linux/teleop_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/launch/ur_sim_moveit.launch.py:Zone.Identifier\n'}
+[10.157129] (ur_simulation_gazebo) StdoutLine: {'line': b'-- Installing: /home/yash_linux/teleop_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/launch/ur_sim_moveit.launch.py\n'}
+[10.157168] (ur_simulation_gazebo) StdoutLine: {'line': b'-- Installing: /home/yash_linux/teleop_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/launch/ur_sim_moveit.launch.py:Zone.Identifier:Zone.Identifier\n'}
+[10.157303] (ur_simulation_gazebo) StdoutLine: {'line': b'-- Installing: /home/yash_linux/teleop_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/launch/ur_sim_control.launch.py:Zone.Identifier\n'}
+[10.157917] (ur_simulation_gazebo) StdoutLine: {'line': b'-- Installing: /home/yash_linux/teleop_ws/install/ur_simulation_gazebo/share/ament_index/resource_index/package_run_dependencies/ur_simulation_gazebo\n'}
+[10.158138] (ur_simulation_gazebo) StdoutLine: {'line': b'-- Installing: /home/yash_linux/teleop_ws/install/ur_simulation_gazebo/share/ament_index/resource_index/parent_prefix_path/ur_simulation_gazebo\n'}
+[10.158571] (ur_simulation_gazebo) StdoutLine: {'line': b'-- Installing: /home/yash_linux/teleop_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/environment/ament_prefix_path.sh\n'}
+[10.158625] (ur_simulation_gazebo) StdoutLine: {'line': b'-- Installing: /home/yash_linux/teleop_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/environment/ament_prefix_path.dsv\n'}
+[10.158804] (ur_simulation_gazebo) StdoutLine: {'line': b'-- Installing: /home/yash_linux/teleop_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/environment/path.sh\n'}
+[10.158935] (ur_simulation_gazebo) StdoutLine: {'line': b'-- Installing: /home/yash_linux/teleop_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/environment/path.dsv\n'}
+[10.159106] (ur_simulation_gazebo) StdoutLine: {'line': b'-- Installing: /home/yash_linux/teleop_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/local_setup.bash\n'}
+[10.159229] (ur_simulation_gazebo) StdoutLine: {'line': b'-- Installing: /home/yash_linux/teleop_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/local_setup.sh\n'}
+[10.159392] (ur_simulation_gazebo) StdoutLine: {'line': b'-- Installing: /home/yash_linux/teleop_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/local_setup.zsh\n'}
+[10.159560] (ur_simulation_gazebo) StdoutLine: {'line': b'-- Installing: /home/yash_linux/teleop_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/local_setup.dsv\n'}
+[10.159718] (ur_simulation_gazebo) StdoutLine: {'line': b'-- Installing: /home/yash_linux/teleop_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/package.dsv\n'}
+[10.160193] (ur_simulation_gazebo) StdoutLine: {'line': b'-- Installing: /home/yash_linux/teleop_ws/install/ur_simulation_gazebo/share/ament_index/resource_index/packages/ur_simulation_gazebo\n'}
+[10.160678] (ur_simulation_gazebo) StdoutLine: {'line': b'-- Installing: /home/yash_linux/teleop_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/cmake/ur_simulation_gazeboConfig.cmake\n'}
+[10.160770] (ur_simulation_gazebo) StdoutLine: {'line': b'-- Installing: /home/yash_linux/teleop_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/cmake/ur_simulation_gazeboConfig-version.cmake\n'}
+[10.160958] (ur_simulation_gazebo) StdoutLine: {'line': b'-- Installing: /home/yash_linux/teleop_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/package.xml\n'}
+[10.162687] (ur_simulation_gazebo) CommandEnded: {'returncode': 0}
+[10.175320] (ur_simulation_gazebo) JobEnded: {'identifier': 'ur_simulation_gazebo', 'rc': 0}
+[10.177311] (-) EventReactorShutdown: {}
