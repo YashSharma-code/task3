@@ -30,8 +30,11 @@ sudo apt install ros-humble-joint-state-publisher ros-humble-joint-trajectory-co
 ⚙️ Building the Package
 
 Clone the repository and place it under your ROS 2 workspace directory:
+
 mkdir ~/teleop_ws/
+
 cd ~/teleop_ws/
+
 git clone (https://github.com/YashSharma-code/task3)
 
 Build the workspace:
