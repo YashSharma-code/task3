@@ -1,2 +1,0 @@
-[console_scripts]
-keyboard_teleop = teleop_arm.keyboard_teleop:main

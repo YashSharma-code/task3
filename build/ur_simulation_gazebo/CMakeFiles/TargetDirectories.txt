@@ -1,9 +1,0 @@
-/home/yash_linux/teleop_ws/build/ur_simulation_gazebo/CMakeFiles/uninstall.dir
-/home/yash_linux/teleop_ws/build/ur_simulation_gazebo/CMakeFiles/ur_simulation_gazebo_uninstall.dir
-/home/yash_linux/teleop_ws/build/ur_simulation_gazebo/CMakeFiles/test.dir
-/home/yash_linux/teleop_ws/build/ur_simulation_gazebo/CMakeFiles/edit_cache.dir
-/home/yash_linux/teleop_ws/build/ur_simulation_gazebo/CMakeFiles/rebuild_cache.dir
-/home/yash_linux/teleop_ws/build/ur_simulation_gazebo/CMakeFiles/list_install_components.dir
-/home/yash_linux/teleop_ws/build/ur_simulation_gazebo/CMakeFiles/install.dir
-/home/yash_linux/teleop_ws/build/ur_simulation_gazebo/CMakeFiles/install/local.dir
-/home/yash_linux/teleop_ws/build/ur_simulation_gazebo/CMakeFiles/install/strip.dir

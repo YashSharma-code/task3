@@ -1,8 +1,0 @@
-Metadata-Version: 2.1
-Name: teleop-arm
-Version: 0.0.0
-Summary: Teleoperation for UR5 in Gazebo
-Maintainer: your_name
-Maintainer-email: your_email@example.com
-License: TODO
-Requires-Dist: setuptools
