@@ -34,14 +34,14 @@ ros-humble-joint-state-publisher
 ros-humble-joint-trajectory-controller
 
 Install missing packages using:
-
+```
 sudo apt update
 sudo apt install ros-humble-joint-state-publisher ros-humble-joint-trajectory-controller 
-
+```
 ⚙️ Building the Package
 
 Clone the repository and place it under your ROS 2 workspace directory:
-
+```
 mkdir ~/teleop_ws/
 
 cd ~/teleop_ws/
@@ -51,30 +51,30 @@ git clone (https://github.com/YashSharma-code/task3)
 cd ~/teleop_ws/src/
 
 git clone -b humble https://github.com/UniversalRobots/Universal_Robots_ROS2_Gazebo_Simulation
-
+```
 Build the workspace:
-
+```
 cd ~/teleop_ws
 colcon build
 source install/setup.bash
-
+```
 🚀 Running the Simulation
 
 Step 1: Launch the robot in Gazebo
 
 This command launches Gazebo with the UR5 robot and its controllers:
-
+```
 ros2 launch teleop_arm sim_teleop.launch.py
-
+```
 This will automatically execute:
-
+```
 ros2 launch ur_simulation_gazebo ur_sim_control.launch.py ur_type:=ur5 use_fake_hardware:=true launch_rviz:=false
-
+```
 Step 2: Run the keyboard teleoperation node (in a separate terminal)
-
+```
 source ~/teleop_ws/install/setup.bash
 ros2 run teleop_arm keyboard_teleop
-
+```
 ⚠️ This node must be run in a regular terminal (not from launch file) due to raw keyboard input handling.
 
 ⌨️ Keyboard Controls
@@ -100,9 +100,9 @@ Each keypress sends a new joint trajectory with a small delta (0.1 rad).
 Verify that the robot spawns in Gazebo and is controllable.
 
 Confirm /joint_trajectory_controller/joint_trajectory is being published to using:
-
+```
 ros2 topic echo /joint_trajectory_controller/joint_trajectory
-
+```
 Use rqt_graph to visualize the ROS computation graph.
 
 👤 Author
